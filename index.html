@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en-pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CarWeX</title>
+
+    <!-- czcionka CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <!--     CSS      -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+</head>
+<body>
+  
+    
+<!-- header section POCZĄTEK -->
+
+<header class="header">
+
+     <div id="menu-btn" class="fas fa-bars"></div>
+
+     <a href="#" class="logo"> <span>Car</span>WeX </a>
+
+     <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#vehicles">Pojazdy</a>
+        <a href="#services">Usługi</a>
+        <a href="#featured">Wyróżnione</a>
+        <a href="#reviews">Opinie</a>
+        <a href="#contact">Kontakt</a>
+     </nav>
+
+     <div id="login-btn">
+        <button class="btn">login</button>
+        <i class="far fa-user"></i>
+     </div>
+
+</header>
+
+<!-- HEADER section KONIEC  -->
+
+<!--  LOGOWANIE FOLMULARZ   -->
+
+<div class="login-form-container">
+
+    <span class="fas fa-times" id="close-login-form"></span>
+
+    <form action="">
+       <h3>Logowanie</h3>
+       <input type="email" placeholder="e-mail" class="box">
+       <input type="Hasło" placeholder="Hasło" class="box">
+       <p>Zapomniałeś hasła <a href="#">kliknij tutaj</a></p>
+       <input type="submit" value="Zaloguj się teraz" class="btn">
+       <p> Lub zaloguj się za pomocą </p>
+       <div class="buttons">
+           <a href="#" class="btn">google</a>
+           <a href="#" class="btn">facebook</a>
+       </div>
+       <p> Nie posiadam konta <a href="#" > Stwórz </a></p>
+    </form>
+
+
+</div>
+
+<!--   HOME section POCZĄTEK  -->
+
+<section  class="home"  id="home">
+    
+        
+
+        <h1 class="home-parallax" data-speed="-2"> Znajdź swój samochód </h1>
+         <img class="home-parallax" data-speed="5" src="image/home-img.png" alt=""> 
+        <a href="#swiper-wrapper" class="btn home-parallax" data-speed="7"> Oglądaj samochody </a>
+
+
+</section>
+<!--   HOME section KONIEC    -->
+
+
+
+<!--   IKONY section POCZĄTEK  -->
+
+<section class="icons-container">
+
+     <div class="icons">
+         <i class="fa fa-home"></i>
+         <div class="content">
+            <h3>150+</h3>
+            <p>Oddziałów</p>
+         </div>
+     </div>
+
+     <div class="icons">
+        <i class="fa fa-car"></i>
+        <div class="content">
+           <h3>4770+</h3>
+           <p>Sprzedanych samochodów</p>
+        </div>
+    </div>
+
+    <div class="icons">
+        <i class="fa fa-users"></i>
+        <div class="content">
+           <h3>590+</h3>
+           <p>Zadowolonych klientów</p>
+        </div>
+    </div>
+
+    <div class="icons">
+        <i class="fa fa-car"></i>
+        <div class="content">
+           <h3>890+</h3>
+           <p>nowych samochodów</p>
+        </div>
+    </div>
+
+</section>
+<!--   HOME section KONIEC       -->
+
+<!--   POJAZDY section POCZĄTEK  -->
+
+<section class="vehicles" id="vehicles">
+
+    <h1 class="heading"> Nasze <span> pojazdy </span></h1>
+
+    <div class="swiper vehicles-slider">
+
+         <div class="swiper-wrapper">
+
+             <div class="swiper-slide box">
+                <img src="image/pojazd1.png" width="700px" height="260px" alt="">
+                <div class="content">
+                    <h3>Bmw f30</h3>
+                    <div class="price"> <span>Cena: </span> Zł 65000/- </div>
+                    <p>
+                        Nowe
+                        <span class="fas fa-circle"></span> 2021
+                        <span class="fas fa-circle"></span> Automatyczna
+                        <span class="fas fa-circle"></span> benzyna
+                        <span class="fas fa-circle"></span> 183mph
+                    </p>
+                    <a href="#" class="btn"> Sprawdź </a>
+                </div>
+             </div> 
+
+             <div class="swiper-slide box">
+                <img src="image/pojazd2.png" width="700px" height="260px" alt="">
+                <div class="content">
+                    <h3>Chevrolet camaro</h3>
+                    <div class="price"> <span>Cena: </span> Zł 65000/- </div>
+                    <p>
+                        Nowe
+                        <span class="fas fa-circle"></span> 2021
+                        <span class="fas fa-circle"></span> Automatyczna
+                        <span class="fas fa-circle"></span> Disel
+                        <span class="fas fa-circle"></span> 183mph
+                    </p>
+                    <a href="#" class="btn"> Sprawdź </a>
+                </div>
+             </div> 
+
+             <div class="swiper-slide box">
+                <img src="image/pojazd3.png" width="700px" height="260px" alt="">
+                <div class="content">
+                    <h3>Volkswagen Tiguan</h3>
+                    <div class="price"> <span>Cena: </span> Zł 65000/- </div>
+                    <p>
+                        Nowe
+                        <span class="fas fa-circle"></span> 2021
+                        <span class="fas fa-circle"></span> Automatyczna
+                        <span class="fas fa-circle"></span> Disel
+                        <span class="fas fa-circle"></span> 183mph
+                    </p>
+                    <a href="#" class="btn"> Sprawdź </a>
+                </div>
+             </div> 
+
+             <div class="swiper-slide box">
+                <img src="image/pojazd4.png" width="700px" height="260px" alt="">
+                <div class="content">
+                    <h3>Audi RS8</h3>
+                    <div class="price"> <span>Cena: </span> Zł 65000/- </div>
+                    <p>
+                        Nowe
+                        <span class="fas fa-circle"></span> 2021
+                        <span class="fas fa-circle"></span> Automatyczna
+                        <span class="fas fa-circle"></span> benzyna
+                        <span class="fas fa-circle"></span> 183mph
+                    </p>
+                    <a href="#" class="btn"> Sprawdź </a>
+                </div>
+             </div> 
+
+             <div class="swiper-slide box">
+                <img src="image/pojazd5.png" width="700px" height="260px" alt="">
+                <div class="content">
+                    <h3>Ferrari</h3>
+                    <div class="price"> <span>Cena: </span> Zł 65000/- </div>
+                    <p>
+                        Nowe
+                        <span class="fas fa-circle"></span> 2021
+                        <span class="fas fa-circle"></span> Automatyczna
+                        <span class="fas fa-circle"></span> benzyna
+                        <span class="fas fa-circle"></span> 183mph
+                    </p>
+                    <a href="#" class="btn"> Sprawdź </a>
+                </div>
+             </div> 
+
+             <div class="swiper-slide box">
+                <img src="image/pojazd6.png" width="700px" height="260px" alt="">
+                <div class="content">
+                    <h3>Hyundai Tucson</h3>
+                    <div class="price"> <span>Cena: </span> Zł 65000/- </div>
+                    <p>
+                        Nowe
+                        <span class="fas fa-circle"></span> 2021
+                        <span class="fas fa-circle"></span> Automatyczna
+                        <span class="fas fa-circle"></span> benzyna
+                        <span class="fas fa-circle"></span> 183mph
+                    </p>
+                    <a href="#" class="btn"> Sprawdź </a>
+                </div>
+             </div> 
+
+         </div>
+
+         <div class="swiper-pagination"></div>
+
+    </div>
+
+</section>
+
+<!--   POJAZDY section KONIEC  -->
+
+<!--   USŁUGI section POCZĄTEK -->
+
+
+<section class="services" id="services">
+
+    <h1 class="heading"> Nasze <span>usługi</span> </h1>
+
+       <div class="box-container">
+        
+        <div class="box">
+           <i class="fa fa-car"></i>
+           <h3> Sprzedaż samochodów </h3>
+           <p>.</p>
+           <a href="#" class="btn">Czytaj więcej</a>
+       </div>
+
+        <div class="box">
+           <i class="fa fa-tools"></i>
+           <h3> Naprawa części </h3>
+           <p>.</p>
+           <a href="#" class="btn">Czytaj więcej</a>
+       </div>
+
+       
+        <div class="box">
+           <i class="fa fa-car-crash"></i>
+           <h3> Ubezpieczenie samochodu </h3>
+           <p>.</p>
+           <a href="#" class="btn">Czytaj więcej</a>
+       </div>
+
+  
+        <div class="box">
+           <i class="fa fa-battery"></i>
+           <h3> Wymiana baterii </h3>
+           <p>.</p>
+           <a href="#" class="btn">Czytaj więcej</a>
+       </div>
+
+        <div class="box">
+           <i class="fa fa-gas-pump"></i>
+           <h3> Wymiana oleju </h3>
+           <p>.</p>
+           <a href="#" class="btn">Czytaj więcej</a>
+       </div>
+
+        <div class="box">
+           <i class="fas fa-headset"></i>
+           <h3> 24/7 Wsparcie </h3>
+           <p>.</p>
+           <a href="#" class="btn">Czytaj więcej</a>
+       </div>
+
+
+    </div>
+
+</div>
+
+</section>
+<!--   USŁUGI section KONIEC  -->
+
+
+
+<!--   WYRÓŻNIENIE section POCZĄTEK  -->
+
+<section class="featured" id="featured">
+
+    <h1 class="heading"> <span> Wyróżnione </span> samochody </h1>
+
+    <div class="swiper featured-slider">
+
+        <div class="swiper-wrapper">
+
+
+            <div class="swiper-slide box">
+                <img src="image/car-1.png" alt="wczytywanie"  width="420" height="260px">
+                <h3>Toyota Pickup</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="price">Zł 55,000/-</div>
+                <a href="#" class="btn">Sprawdź</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/car-2.png" alt="wczytywanie"  width="420" height="260px">
+                <h3>Mercedes-AMG</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="price">Zł 55,000/-</div>
+                <a href="#" class="btn">Sprawdź</a>
+            </div>
+                                                      
+            <div class="swiper-slide box">
+                <img src="image/car-3.png" alt="wczytywanie"  width="420" height="260px">
+                <h3>BMW</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price">Zł 55,000/-</div>
+                <a href="#" class="btn">Sprawdź</a>
+            </div>
+
+
+            <div class="swiper-slide box">
+                <img src="image/car-4.png" alt="wczytywanie"  width="420" height="260px">
+                <h3>Lamborghini</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="price">Zł 55,000/-</div>
+                <a href="#" class="btn">Sprawdź</a>
+            </div>
+
+        </div> 
+
+        <div class="swiper-pagination"></div>
+
+    </div>
+
+    <div class="swiper featured-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="image/car-5.png" alt="wczytywanie"  width="420" height="260px">
+                <h3>Nissan</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price">Zł 55,000/-</div>
+                <a href="#" class="btn">Sprawdź</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/car-6.png" alt="wczytywanie"  width="420" height="260px">
+                <h3>Toyota Pickup</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price">Zł 55,000/-</div>
+                <a href="#" class="btn">Sprawdź</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/car-7.png" alt="wczytywanie"  width="420" height="260px">
+                <h3>Seat Taxi</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price">Zł 55,000/-</div>
+                <a href="#" class="btn">Sprawdź</a>
+            </div>
+
+
+            <div class="swiper-slide box">
+                <img src="image/car-8.png"  alt="wczytywanie"  width="420" height="260px">
+                <h3>Range Rover</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price">Zł 55,000/-</div>
+                <a href="#" class="btn">Sprawdź</a>
+            </div>
+
+        </div> 
+
+        <div class="swiper-pagination"></div>
+
+    </div>
+
+
+</section>
+
+<!--   WYRÓŻNIENIE section KONIEC    -->
+
+<!--   NEWSLETTER section POCZĄTEK   -->
+<section class="newsletter">
+
+    <h3>Subskrybuj najnowsze aktualizacje</h3>
+
+    <form action="">
+        <input type="email" placeholder="Wprowadź swój email" name="" id="">
+        <input type="submit" class="subscribe" name=""  id="">
+    </form>
+
+</section>
+<!--   NEWSLETTER section KONIEC     -->
+
+
+
+<!--   RECENZJA   section POCZĄTEK   -->
+
+<section class="reviews" id="reviews">
+
+    <h1 class="heading"> Opinia <span> klienta </span> </h1>
+
+    <div class="swiper reviews-slider">
+
+        <div class="swiper-wrapper">
+
+        <div class="swiper-slide box">
+               <img src="image/rev1.jpg" alt="" width="180px" height="220px">
+               <div class="content">
+                   <p>  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  </p>
+                   <h3>Jakub</h3>
+                   <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+         </div>
+
+        <div class="swiper-slide box">
+                <img src="image/rev2.jpg" alt="" width="180px" height="220px">
+                <div class="content">
+                    <p>   Lorem ipsum dolor sit amet, consectetur adipiscing elit, </p>
+                    <h3>Kamil</h3>
+                    <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+        </div>
+        
+        <div class="swiper-slide box">
+                <img src="image/rev3.jpg" alt="" width="180px" height="220px">
+                <div class="content">
+                    <p>  Lorem ipsum dolor sit amet, consectetur adipiscing elit, </p>
+                    <h3>Asia</h3>
+                    <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+        </div>
+
+        </div>
+    
+        <div class="swiper-pagination"></div>
+
+    </div>
+
+</section>
+<!--   RECENZJA   section KONIEC     -->
+
+<!--   KONTAKT section POCZĄTEK      -->
+
+<section class="contact" id="contact">
+
+    <h1 class="heading"> <span>Kontakt</span></h1>
+
+    <div class="row">
+
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d87881.18129479581!2d15.126945779479719!3d44.88754823547049!2m3!1f0!2f0!3f0!3m2!1i1024!
+        2i768!4f13.1!3m3!1m2!1s0x4763e7a352d63737%3A0x15b367ae0ce665ad!2sPetrini%C4%87%20polje%20bunar!5e0!3m2!1spl!2spl!4v1692699279411!5m2!1spl!2spl" 
+        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+     
+    <form action="">
+        <h3>Skontaktuj się</h3>
+        <input type="text" placeholder="Imię" class="box">
+        <input type="email" placeholder="E-mail" class="box">
+        <input type="numer"  placeholder="Numer"   class="box">
+        <textarea placeholder="Treść" class="box" cols="30" rows="10"></textarea>
+        <input type="submit" value="Wyślij wiadomość" class="btn">
+    </form>
+
+</div>
+
+</section>
+
+<section class="autor">
+    
+   <h1>pixabay.com</h1>
+
+</section>
+
+<!--   KONTAKT section   KONIEC      -->
+
+
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!-- JS LINK  -->
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
